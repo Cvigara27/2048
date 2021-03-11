@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    android:paddingBottom="35dp"
+    android:paddingTop="150dp">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/text2048Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2048"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/kh2menu"
+        android:layout_marginBottom="100dp"/>
+
+
+
+    <TextView
+        android:layout_below="@+id/text2048Menu"
+        android:id="@+id/playButton"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:fontFamily="@font/khmenu"
+        android:onClick="goToGame"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/over_background"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_below="@+id/playButton"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Score"
+        android:fontFamily="@font/khmenu"
+        android:onClick="goToScores"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/save_username"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K-27 * Studios"
+        android:fontFamily="@font/khfont"
+        android:textColor="@color/black"
+        android:textSize="70dp" />
+
+</RelativeLayout>

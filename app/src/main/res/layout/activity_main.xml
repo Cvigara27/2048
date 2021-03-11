@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:id="@+id/myLayout"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:useDefaultMargins="true"
+        android:background="@color/colorBackground">
+
+        <Button
+            android:id="@+id/cell00"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell01"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell02"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell03"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+
+
+
+        <Button
+            android:id="@+id/cell10"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell11"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell12"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell13"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+
+
+
+        <Button
+            android:id="@+id/cell20"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell21"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell22"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell23"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+
+
+
+        <Button
+            android:id="@+id/cell30"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell31"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell32"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+        <Button
+            android:id="@+id/cell33"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size2"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:padding="0dp"
+            android:textSize="30dp"
+            android:backgroundTint="@color/colorTile"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridLayout"
+        android:text="Restart"
+        android:backgroundTint="@color/background2"
+        android:textSize="30dp"
+        android:fontFamily="@font/khmenu"
+        android:onClick="restart"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:fontFamily="@font/khmenu"
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignParentRight="true"
+        android:text="Undo"
+        android:onClick="undoAction"
+        android:backgroundTint="@color/background2"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/text2048"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/undo"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/kh2menu"
+        android:text="2048"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+
+    <TextView
+        android:id="@+id/timeHolder"
+        android:layout_above="@+id/myScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:fontFamily="@font/khmenu"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="35dp" />
+
+
+    <TextView
+        android:id="@+id/cronoMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myScores"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/timeHolder"
+        android:fontFamily="@font/kh2menu"
+        android:text="00"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/minDots"
+        android:layout_above="@+id/myScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:fontFamily="@font/khmenu"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/cronoMin"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_above="@+id/myScores"
+        android:layout_toRightOf="@id/minDots"
+        android:id="@+id/cronoSeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:fontFamily="@font/kh2menu"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/segDots"
+        android:layout_above="@+id/myScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:fontFamily="@font/khmenu"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/cronoSeg"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_above="@+id/myScores"
+        android:layout_toRightOf="@id/segDots"
+        android:id="@+id/cronoMili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:fontFamily="@font/kh2menu"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/myScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="30dp"
+            android:fontFamily="@font/khmenu"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/scoreCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/khmenu"
+            android:textColor="@color/white"
+            android:onClick="GameOver"/>
+
+        <TextView
+            android:fontFamily="@font/khmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/scoreBest"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:fontFamily="@font/khmenu" />
+    </LinearLayout>
+
+</RelativeLayout>

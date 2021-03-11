@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/saveUsername"
+        android:background="@drawable/save_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Enter your username"
+            android:fontFamily="@font/khmenu"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/editUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:fontFamily="@font/khmenu"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:onClick="saveData"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Cancel"
+            android:fontFamily="@font/khmenu"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:onClick="cancelSaving"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/overImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/game_over"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DO YOU WANT TO SAVE YOUR SCORE?"
+        android:textSize="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/over_background"
+        android:fontFamily="@font/kh2menu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            android:fontFamily="@font/khmenu"
+            android:backgroundTint="@color/black"
+            android:layout_marginLeft="60dp"
+            android:onClick="setUsername"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:fontFamily="@font/khmenu"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="@color/black"
+            android:onClick="cancelGameOver"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

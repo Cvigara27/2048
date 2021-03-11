@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="app_logo_top">BEEN THERE</string>
+    <string name="app_logo_bottom">DONE THAT!</string>
+    <string name="app_version_info">Version 2.0.0\nCopyright © 2011 Mamlambo\nAll
+    Rights Reserved.</string>
+</resources>

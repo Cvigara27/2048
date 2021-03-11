@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button2">#CDC1B5</color>
+    <color name="colorPrimary">#29b6f6</color>
+    <color name="colorPrimaryDark">#0086c3</color>
+    <color name="colorAccent">#9c27b0</color>
+    <color name="logo_color">#FFFF0F</color>
+    <color name="version_color">#f0f0f0</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="transparent">#00000000</color>
+
+
+
+    <color name="background">#ecedce</color>
+    <color name="background2">#caccac</color>
+
+    <color name="color2048">#EB103E</color>
+    <color name="color1024">#F54060</color>
+    <color name="color512">#F56E7E</color>
+    <color name="color256">#F08B94</color>
+    <color name="color128">#DFA6AF</color>
+    <color name="color64">#AF23EB</color>
+    <color name="color32">#C85BF5</color>
+    <color name="color16">#D98EF5</color>
+    <color name="color8">#DAA4ED</color>
+    <color name="color4">#B0D0F5</color>
+    <color name="color2">#9cddd7</color>
+
+    <color name="colorTile">#76a9bb</color>
+    <color name="colorBackground">#437688</color>
+</resources>

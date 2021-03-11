@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <View
+        android:id="@+id/timerDelay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K-27 * Studios"
+        android:fontFamily="@font/khfont"
+        android:textColor="@color/white"
+        android:textSize="70dp" />
+
+    <TextView
+        android:layout_below="@id/logo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presents"
+        android:fontFamily="@font/khmenu"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_above="@id/middleMan"
+            android:id="@+id/number2"
+            android:layout_toLeftOf="@id/number0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/kh2menu"
+            android:text="2"/>
+
+        <TextView
+            android:layout_above="@id/middleMan"
+            android:layout_toLeftOf="@id/middleMan"
+            android:id="@+id/number0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/kh2menu"
+            android:text="0"/>
+
+        <View
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/middleMan"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:layout_above="@id/middleMan"
+            android:id="@+id/number4"
+            android:layout_toRightOf="@id/middleMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/kh2menu"
+            android:text="4"/>
+
+        <TextView
+            android:layout_above="@id/middleMan"
+            android:id="@+id/number8"
+            android:layout_toRightOf="@id/number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/kh2menu"
+            android:text="8"/>
+
+    <TextView
+        android:layout_below="@id/middleMan"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/theGameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/khmenu"
+        android:text="The Game"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/copyrightText"
+        android:layout_above="@id/versionGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u00A92021  APPROVED PROJECT/"
+        android:fontFamily="@font/khmenu"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_toRightOf="@id/copyrightText"
+        android:layout_above="@id/versionGame"
+        android:id="@+id/studioName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K-27 Studios"
+        android:textColor="@color/white"
+        android:fontFamily="@font/khfont"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/versionGame"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver          1.0.27"
+        android:fontFamily="@font/khmenu"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="50dp"/>
+
+
+</RelativeLayout>
